@@ -17,7 +17,7 @@ class ProductController extends GetxController {
             allProducts.length, (int index) => TextEditingController(),
             growable: true)
         .obs;
-    // ignore: invalid_use_of_protected_member
+
     itemQuanity.value = allProducts.map((e) => e.qty).toList();
 
     return allProducts;

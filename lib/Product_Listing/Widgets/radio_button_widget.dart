@@ -13,23 +13,6 @@ class RadioWidget extends StatefulWidget {
 }
 
 class _RadioWidgetState extends State<RadioWidget> {
-  //int? selectradio;
-
-  // @override
-  // void initState() {
-  //   selectradio = 0;
-
-  //   // TODO: implement in
-  //   // itState
-  //   super.initState();
-  // }
-
-  // setSelectedRadio(String val) {
-  //   setState(() {
-  //     selectradio = val as int?;
-  //   });
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Wrap(

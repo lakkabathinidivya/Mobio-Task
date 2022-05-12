@@ -34,7 +34,7 @@ class TextFieldWidget extends StatelessWidget {
             borderSide: BorderSide(color: Colors.black),
           ),
           focusedBorder: OutlineInputBorder(
-            borderSide: BorderSide(color: Colors.black),
+            borderSide: BorderSide(color: Colors.blue),
           ),
         ),
       ),

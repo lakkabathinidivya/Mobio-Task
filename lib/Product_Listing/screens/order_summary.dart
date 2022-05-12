@@ -45,7 +45,7 @@ class OrderSummary extends StatelessWidget {
             Container(
               height: 130,
               child: Padding(
-                padding: const EdgeInsets.all(0.0),
+                padding: const EdgeInsets.symmetric(vertical: 10),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -61,7 +61,7 @@ class OrderSummary extends StatelessWidget {
                           text1: 'Quanity: ',
                           text2: '${qty}',
                         ),
-                        SizedBox(
+                        const SizedBox(
                           width: 50,
                         ),
                         RichTextWidget(

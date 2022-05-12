@@ -24,7 +24,6 @@ class _ProductListingState extends State<ProductListing> {
   void initState() {
     WidgetsBinding.instance!.addPostFrameCallback((_) {
       _productController.getMethod();
-      //_productController.update();
     });
 
     // TODO: implement initState
@@ -36,6 +35,7 @@ class _ProductListingState extends State<ProductListing> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        resizeToAvoidBottomInset: true,
         appBar: AppBar(
             backgroundColor: Colors.deepPurpleAccent,
             centerTitle: true,
@@ -66,7 +66,7 @@ class _ProductListingState extends State<ProductListing> {
                         }));
                       }
                     },
-                    child: Text('Submit Product'),
+                    child: const Text('Submit Product'),
                   )
                 ],
               ),
